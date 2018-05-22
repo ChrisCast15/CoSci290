@@ -8,7 +8,10 @@ public class Lab20TestShape{
   
   public static void main(String[] args){
     
-    System.out.println(new Lab20CustomClass("Triangle", "Blue", 17));   
+    Lab21AbstractClass test = new Lab21AbstractClass();
+    
+    System.out.println(test);
+    
   }
   
 }
